@@ -1,0 +1,208 @@
+
+/* padding */
+
+.p24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.p32{
+    padding: 32px;
+}
+
+.py8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.py16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.py32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.py64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.py100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.px24{
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+
+.pt32{
+    padding-top: 32px;
+}
+
+.pb4{
+    padding-bottom: 4px;
+}
+
+.pb8{
+    padding-bottom: 8px;
+}
+
+
+.pb12{
+    padding-bottom: 12px;
+}
+
+.pb16{
+    padding-bottom: 16px;
+}
+
+.pb24{
+    padding-bottom: 24px;
+}
+
+
+.pb32{
+    padding-bottom: 32px;
+}
+
+.pb40{
+    padding-bottom: 40px;
+}
+
+
+.pb48{
+    padding-bottom: 48px;
+}
+
+.pr8{
+    padding-right: 8px;
+}
+
+.pr12{
+    padding-right: 12px;
+}
+
+.pr24{
+    padding-right: 24px;
+}
+
+.pr40{
+    padding-right: 40px;
+}
+
+.pr48{
+    padding-right: 48px;
+}
+
+
+.pl8{
+    padding-left: 8px;
+}
+
+.pl12{
+    padding-left: 12px;
+}
+
+.pl24{
+    padding-left: 24px;
+}
+
+
+@media (max-width:767px){
+    
+    .mb-p24{
+        padding: 24px;
+    }
+    .mb-py0{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mb-py12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .mb-py24{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .mb-py32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .mb-py64{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .mb-py40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .mb-pt16{
+        padding-top: 16px;
+    }
+    
+    .mb-pb0{
+        padding-bottom: 0px;
+    }
+
+    .mb-pb4{
+        padding-bottom: 4px;
+    }
+
+    .mb-pb8{
+        padding-bottom: 8px;
+    }
+
+    .mb-pb12{
+        padding-bottom: 12px;
+    }
+
+    .mb-pb16{
+        padding-bottom: 16px;
+    }
+
+    .mb-pb24{
+        padding-bottom: 24px;
+    }
+
+    
+    .mb-pb32{
+    padding-bottom: 32px;
+    }
+
+
+    .mb-pl12{
+        padding-left: 12px;
+    }
+
+    .mb-pr16{
+        padding-right: 16px;
+    }
+}

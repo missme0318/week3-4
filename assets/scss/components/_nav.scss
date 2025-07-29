@@ -1,0 +1,10 @@
+.breadcrumb + .breadcrumb::before{
+    content: "/";
+    font-weight: 500;
+    padding: 0px 12px;
+    color: $text-neutral-300;
+}
+
+.breadcrumb-list{
+    color: $text-neutral-600;
+}

@@ -1,0 +1,77 @@
+
+.story-bn{
+    position: relative;
+
+    .story-bntext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+}
+
+.banner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $text-neutral-0;
+}
+
+
+.quote{
+    background-color: $primary-100;
+    .h5{
+        color: $primary-400;
+    }
+}
+
+
+
+.introduce{
+    img{
+    max-width: 1076px;
+    margin-right: -110px;
+    margin-left: -110px;
+    }
+    .h5{
+        color: $primary-400;
+    }
+
+}
+
+
+@media (max-width:767px){
+    .introduce img{
+        max-width: 100%;
+        margin-right:0;
+        margin-left: 0;
+        }
+}
+
+
+
+.story ul{
+    list-style: disc;
+}
+
+
+.blief-lline{
+    border-left: 3px solid $text-neutral-300;
+}
+
+.lstory ul{
+    color: $primary-400;
+
+    li a{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: $primary-400;
+}
+}
+
+
+
+

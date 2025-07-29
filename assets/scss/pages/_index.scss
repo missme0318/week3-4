@@ -1,0 +1,120 @@
+
+.index-banner{
+    position: relative;
+
+    &-text{
+        min-width: 586px;
+        color: $text-neutral-0;
+        position: absolute;
+        top: calc(50% - 111px);
+        right: calc(75% - 293px);
+        z-index: 1;
+    
+}}
+
+@media (max-width: 767px){
+  .index-banner-text{
+    min-width: 327px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .index-category1,
+  .index-category2{
+    width: 50%;
+    background-color: $primary-200;
+    text-align: center;
+  }
+
+  .index-category2{
+    background-color: $primary-100;
+  }
+}
+
+
+
+
+.hotsale{
+    position: relative;
+    .hotcard{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        background-color: $primary-100;
+        color: $primary-400;
+        padding: 8px 12px;
+    }
+}
+
+
+
+.banner2{
+    background-image: url('/assets/images/banner-co-branded.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    &text{
+        color: $text-neutral-0;
+        .h1{
+          color: $primary-300;
+        }
+        .p{
+          color: $text-neutral-400;
+        }
+    }
+
+    &star{
+      position: absolute;
+      max-width: 48px;
+      top: 68px;
+      left: calc(50% - 397px);
+    }
+
+    &sparkle{
+      position: absolute;
+      max-width: 76px;
+      bottom: 132px;
+      right: calc(50% - 357px);
+    }
+  }
+
+
+@media (max-width: 767px){
+    .banner2{
+      background-image: url('/assets/images/banner-co-branded-sm.png');
+    
+    &star{
+      top: 32px;
+      left: -20px;
+    }
+    &sparkle{
+      bottom: 104px;
+      right: -24px;
+    }
+} 
+}
+
+
+.seriescard{
+  position: relative;
+
+  .seriesname{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(#000000, 0.4);
+    color: $text-neutral-0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+}

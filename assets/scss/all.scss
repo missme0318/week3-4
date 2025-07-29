@@ -1,0 +1,24 @@
+//變數、通用樣式
+@import './base/reset';
+@import './helper/variables';
+@import './base/base.scss';
+@import './helper/utils';
+
+
+// 1. 元件(進階)
+@import './components/button';
+@import './components/nav';
+
+// 3. 共用樣式
+@import './layout/layout';
+@import './layout/row';
+@import './layout/padding';
+@import './layout/margin';
+@import './layout/header';
+@import './layout/footer';
+
+// 4. 分頁樣式
+@import './pages/index';
+@import './pages/brandstory';
+@import './pages/product-list';
+@import './pages/product';
