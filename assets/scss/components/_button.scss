@@ -3,20 +3,27 @@
     border-radius: 4px;
     cursor: pointer;
     border: none;
+    font-family: "Noto Sans TC", sans-serif;
+    &:disabled {
+        cursor: default;
+    }
 }
 
-.cta-register{
-    background-color: $primary-200;
-}
 
 .footer-btn{
     background-color: $text-neutral-900;
     color: $text-neutral-0;
+    &:hover{
+        background-color: $text-neutral-700;
+    }
 }
 
 .bn-button{
     background-color: $primary-300;
     border:none;
+    &:hover{
+        color: $primary-500;
+    }
 }
 
 .size-btn .btn{
@@ -26,7 +33,19 @@
     &.btn-active{
         border: 1px solid $text-neutral-900;
     }
+    &:hover{
+        background-color: $text-neutral-900;
+        a{
+            color: $text-neutral-0;
+        }
+    }
+    &:disabled {
+        background-color: transparent;
+    }
+    
+    
 }
+
 
 
 .add-button .btn{
@@ -35,26 +54,43 @@
     &.btn-like{
         background-color: transparent;
         border: 1px solid $text-neutral-900;
+        &:hover{
+        background-color: $text-neutral-900;
+        color: $text-neutral-0;
+        }
+        @include mobile{
+            max-width: 48px;
+            font-size: 24px;
+            padding-left: 12px;
+            border: none;
+        }
     }
     &.booking{
         color: $text-neutral-0;
         background-color: $text-neutral-900;
+        &:hover{
+        background-color: $text-neutral-700;
+        }
+        @include mobile{
+            width: calc(100% - 56px);
+        }
     }
 }
 
 
-@media (max-width:767px) {
-    .add-button .btn.booking{
-        width: calc(100% - 56px);
-    }
 
-    .add-button .btn.btn-like{
-        max-width: 48px;
-        font-size: 24px;
-        padding-left: 12px;
-        border: none;
-    }
+// @media (max-width:767px) {
+//     .add-button .btn.booking{
+//         width: calc(100% - 56px);
+//     }
+
+//     .add-button .btn.btn-like{
+//         max-width: 48px;
+//         font-size: 24px;
+//         padding-left: 12px;
+//         border: none;
+//     }
     
     
     
-}
+// }

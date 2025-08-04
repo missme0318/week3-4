@@ -46,11 +46,13 @@
         <!-- 產品資訊 -->
         <div class="col-5">
           <div class="product-info">
-            <nav class="d-flex pb12 mb-pb8">
-                <p class="breadcrumb"><a href="index.html" class="breadcrumb-list">首頁</a></p>
-                <p class="breadcrumb"><a href="product-list.html" class="breadcrumb-list">女鞋</a></p>
-                <p class="breadcrumb"><a href="#" class="breadcrumb-list">滑板鞋</a></p>
-                <p class="breadcrumb">Platform 404</p>
+            <nav>
+              <ol class="d-flex pb12 mb-pb8">
+                <li class="breadcrumb"><a href="index.html" class="breadcrumb-list">首頁</a></li>
+                <li class="breadcrumb"><a href="product-list.html" class="breadcrumb-list">女鞋</a></li>
+                <li class="breadcrumb"><a href="#" class="breadcrumb-list">滑板鞋</a></li>
+                <li class="breadcrumb">Platform 404</li>
+              </ol>
             </nav>
 
             <h2 class="h2 mb-h4 fw-700">Platform 404</h2>
@@ -155,32 +157,32 @@
     <!-- 你可能也喜歡... -->
     <section class="container py48 mb-py40">
       <h2 class="h4 mb-h5 fw-700 py8 mb16">你可能也喜歡...</h2>
-      <div class="guess-like row mb-f-nowrap mb-over-x-auto">
-        <div class="col-3">
+      <ul class="guess-like row mb-f-nowrap mb-over-x-auto">
+        <li class="col-3"><a href="#">
               <img src="/assets/images/product-2.png" alt="product3" class="pb12">
               <h6 class="h6 fw-700 pb4">VM001</h6>
               <p class="md fw-500">NT$2,600</p>
-        </div>
+        </li></a>
         
-        <div class="col-3">
+        <li class="col-3"><a href="#">
               <img src="/assets/images/product-3.png" alt="product3" class="pb12">
               <h6 class="h6 fw-700 pb4">Melty Kiss</h6>
               <p class="md fw-500">NT$4,000</p>
-        </div>
+        </li></a>
         
-        <div class="col-3">
+        <li class="col-3"><a href="#">
               <img src="/assets/images/product-4.png" alt="product3" class="pb12">
               <h6 class="h6 fw-700 pb4">BOOMBLOK</h6>
               <p class="md fw-500">NT$3,200</p>
-        </div>
+        </li></a>
 
-        <div class="col-3">
+        <li class="col-3"><a href="#">
               <img src="/assets/images/product-7.png" alt="product3" class="pb12">
               <h6 class="h6 fw-700 pb4">Sugar Snap</h6>
               <p class="md fw-500">NT$3,200</p>
-        </div>
+        </li></a>
 
-      </div>
+      </ul>
     </section>
     <%- include('./layout/footer'); %>
 

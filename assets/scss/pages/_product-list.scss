@@ -4,13 +4,24 @@
 }
 
 .page-btn{
+    padding: 0px;
+    border-radius: 0px;
     width: 40px;
     height: 40px;
     background-color: transparent;
     border: none;
+    &:hover{
+        background-color: $text-neutral-900;
+        color: $text-neutral-0;
+        }
 }
+
 
 .page-btn-active{
     background-color: $primary-300;
     border-radius: 0px;
+    &:hover{
+        background-color: $primary-300;
+        color: $primary-500;
+    }
 }

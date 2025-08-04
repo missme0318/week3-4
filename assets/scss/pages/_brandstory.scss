@@ -30,28 +30,21 @@
 
 
 
-.introduce{
-    img{
+.introduce-img{
     max-width: 1076px;
-    margin-right: -110px;
-    margin-left: -110px;
+    margin: 0 auto;
+    
+    @include mobile{
+        max-width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
     }
-    .h5{
+}
+
+    
+.introduce .h5{
         color: $primary-400;
     }
-
-}
-
-
-@media (max-width:767px){
-    .introduce img{
-        max-width: 100%;
-        margin-right:0;
-        margin-left: 0;
-        }
-}
-
-
 
 .story ul{
     list-style: disc;

@@ -3,23 +3,22 @@
     position: relative;
 
     &-text{
-        min-width: 586px;
-        color: $text-neutral-0;
-        position: absolute;
-        top: calc(50% - 111px);
-        left: calc(200px);
-        z-index: 1;
+      min-width: 586px;
+      color: $text-neutral-0;
+      position: absolute;
+      top: calc(50% - 111px);
+      left: calc(200px);
+      z-index: 1;
+      @include mobile{
+        min-width: 327px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
     
 }}
 
-@media (max-width: 767px){
-  .index-banner-text{
-    min-width: 327px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
+@include mobile{
   .index-category1,
   .index-category2{
     width: 50%;
@@ -57,14 +56,19 @@
     background-size: cover;
     text-align: center;
     position: relative;
+    padding: 100px 0px;
     &text{
-        color: $text-neutral-0;
-        .h1{
-          color: $primary-300;
-        }
-        .p{
-          color: $text-neutral-400;
-        }
+      color: $text-neutral-0;
+      .h1{
+        color: $primary-300;
+      }
+      .p{
+        color: $text-neutral-400;
+      }
+    }
+    @include mobile{
+      background-image: url('/assets/images/banner-co-branded-sm.png');
+      overflow: hidden; //避免水平卷軸
     }
 
     &star{
@@ -72,31 +76,26 @@
       max-width: 48px;
       top: 68px;
       left: calc(50% - 397px);
+      @include mobile{
+        top: 32px;
+        left: -20px;
+        }
     }
+    
 
     &sparkle{
       position: absolute;
       max-width: 76px;
       bottom: 132px;
       right: calc(50% - 357px);
+      @include mobile{
+        bottom: 104px;
+        right: -28px;
+      }
     }
   }
 
 
-@media (max-width: 767px){
-    .banner2{
-      background-image: url('/assets/images/banner-co-branded-sm.png');
-    
-    &star{
-      top: 32px;
-      left: -20px;
-    }
-    &sparkle{
-      bottom: 104px;
-      right: -24px;
-    }
-} 
-}
 
 
 .seriescard{

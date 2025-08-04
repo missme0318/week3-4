@@ -31,61 +31,9 @@
 }
 
 
-@media (max-width:767px){
+@include mobile{
     .mb-mt24{
         margin-top: 24px;
     }
 
-
-
-
-
-    // .mb-my12{
-    //     margin-top: 12px;
-    //     margin-bottom: 12px;
-    // }
-    // .mb-my24{
-    //     margin-top: 24px;
-    //     margin-bottom: 24px;
-    // }
-
-    // .mb-my32{
-    //     margin-top: 32px;
-    //     margin-bottom: 32px;
-    // }
-
-    // .mb-mt16{
-    //     margin-top: 16px;
-    // }
-
-    // .mb-mb0{
-    //     margin-bottom: 0px;
-    // }
-
-    // .mb-mb4{
-    //     margin-bottom: 4px;
-    // }
-
-    // .mb-mb8{
-    //     margin-bottom: 8px;
-    // }
-
-    // .mb-mb16{
-    //     margin-bottom: 16px;
-    // }
-    // .mb-mb12{
-    //     margin-bottom: 12px;
-    // }
-
-    // .mb-mb24{
-    //     margin-bottom: 24px;
-    // }
-
-    // .mb-mb32{
-    //     margin-bottom: 32px;
-    // }
-
-    // .mb-mr16{
-    //     margin-right: 16px;
-    // }
 }

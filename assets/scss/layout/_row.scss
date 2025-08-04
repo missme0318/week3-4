@@ -77,7 +77,7 @@
 }
 
 
-@media (max-width: 767px) {
+@include mobile{
     .mb-row{
         margin: -12px -6px;
     }

@@ -60,6 +60,9 @@
     padding-top: 32px;
 }
 
+.pt64{
+    padding-top: 64px;
+}
 .pb4{
     padding-bottom: 4px;
 }
@@ -93,6 +96,10 @@
 
 .pb48{
     padding-bottom: 48px;
+}
+
+.pb64{
+    padding-bottom: 64px;
 }
 
 .pr8{
@@ -129,7 +136,7 @@
 }
 
 
-@media (max-width:767px){
+@include mobile{
     
     .mb-p24{
         padding: 24px;
@@ -167,7 +174,9 @@
     .mb-pt16{
         padding-top: 16px;
     }
-    
+    .mb-pt32{
+        padding-top: 32px;
+    }
     .mb-pb0{
         padding-bottom: 0px;
     }

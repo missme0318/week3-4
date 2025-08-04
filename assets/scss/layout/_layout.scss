@@ -47,7 +47,7 @@
 }
 
 
-@media (max-width: 767px) {
+@include mobile {
     .mb-d-none{
         display: none;
     }

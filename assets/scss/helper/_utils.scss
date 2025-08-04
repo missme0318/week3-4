@@ -55,7 +55,8 @@
     font-size: 12px;
 }
 
-@media (max-width:767px){
+@include mobile{
+    
     .mb-display2{
         line-height: 120%;
         font-size: 48px;
